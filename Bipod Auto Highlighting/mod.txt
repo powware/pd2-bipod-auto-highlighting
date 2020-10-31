@@ -1,0 +1,16 @@
+{
+	"blt_version" : 2,
+    "name" : "Bipod Auto Highlighting",
+    "description" : "Applies the High Value Target effect of automatically highlighting Enemies when in steelsight to bipod usage aswell.",
+    "author" : "powware",
+    "contact" : "https://github.com/powware",
+    "version" : "1.0",
+	"color" : "0.0 1 0.0",
+	"hooks" : [
+		{ 	
+			"hook_id" : "lib/units/beings/player/states/playerstandard", 
+			"script_path" : "playerstandard.lua"
+		}
+	]		
+}
+
