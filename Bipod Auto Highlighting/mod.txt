@@ -6,6 +6,12 @@
     "contact" : "https://github.com/powware",
     "version" : "1.0",
 	"color" : "0.0 1 0.0",
+	"updates" : [
+        {
+            "revision" : 1,
+            "identifier" : "BipodAutoHighlighting"
+        }
+    ],
 	"hooks" : [
 		{ 	
 			"hook_id" : "lib/units/beings/player/states/playerstandard", 
